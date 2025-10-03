@@ -19,7 +19,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/MD-MAFUJUL-HASAN"
+                href="https://github.com/vishesh-yadav-hear"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -29,7 +29,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/md-mafujul-hasan/"
+                href="https://www.linkedin.com/in/vishesh-yadav-hear/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -39,7 +39,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/_md_mafujul_hasan_/"
+                href="https://www.instagram.com/vishesh_yadav_hear/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -49,7 +49,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.facebook.com/mh.tonmoy.13"
+                href="https://www.facebook.com/visheshyadavhear/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -59,7 +59,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="mailto:mdtonmoy13.mt@gmail.com/"
+                href="mailto:visheshyadavhear@gmail.com"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

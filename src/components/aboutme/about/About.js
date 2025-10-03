@@ -30,14 +30,14 @@ const About = () => {
               <p className="home-about-body">
                 My name is <b className="purple">VISHESH YADAV </b> 
                   and I am a <b className="purple">Computer Science and Engineering </b> 
-                    student at <b className="purple">Sonargaon University </b>
-                      in Dhaka, Bangladesh.
+                    student at <b className="purple">Institute of Technology and Management </b>
+                      in Gida, Gorakhpur.
                 <br />
                 <br />
                         I am proficient in various programming languages such as &nbsp;
                   <b className="purple">
                     {" "}
-                    C, C++, Java, Python, HTML, CSS, PHP, and JavaScript.{" "}
+                    Python, HTML, CSS, PHP, JavaScript, and SQL.{" "}
                   </b>
                 <br />
                 <br />
@@ -45,7 +45,7 @@ const About = () => {
 
                   <b className="purple">
                     {" "}
-                    NodeJS, ReactJS, OpenCV, Pandas, and NumPy.{" "}
+                    Pandas, NumPy, and Scikit learn.{" "}
                   </b>
                 <br />
                 <br />
@@ -53,11 +53,11 @@ const About = () => {
                 products with &nbsp;
                   <b className="purple">
                     {" "}
-                    Modern Javascript Library and Frameworks.
+                    Machine learning and Python libraries.
                   </b>
                 <br />
                 <br />In my free time, I enjoy learning new technologies and &nbsp;
-                  <b className="purple">building new web technologies and products. </b>
+                  <b className="purple">building new web and ML technologies and products. </b>
               </p>
             </Fade>
           </Col>
