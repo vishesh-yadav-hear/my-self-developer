@@ -35,7 +35,7 @@ export default function MyNav() {
       <Container>
         <Navbar.Brand href="/">
           <div className="d-flex flex-row justify-content-between">
-            <img src="./profile.png" className="img-fluid logo" alt="brand" />
+            <img src="./profile_ico.png" className="img-fluid logo" alt="brand" />
             <h5
               id="navhead"
               style={{
@@ -44,7 +44,7 @@ export default function MyNav() {
                 color: "#fbd9ad",
               }}
             >
-              MD MAFUJUL HASAN
+              VISHESH YADAV
             </h5>
           </div>
         </Navbar.Brand>
