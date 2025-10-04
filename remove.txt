@@ -1,0 +1,5 @@
+This things remove from this repo the real repo is https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio
+1. Navebar elements
+2. Remove skills from tecnicalskill,toolkit,personalskill.js
+3. Hide Experience Journey
+4. Make changes acording to my requirments in jornyfolder

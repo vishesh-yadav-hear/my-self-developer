@@ -59,8 +59,8 @@ export default function PersonalSkill() {
                         <h2 style={{color:'#f1f965',fontSize:'25px',marginTop:'13px',fontWeight:700 }}>Analytical Abilities</h2>
                         </div>
                     </Col>
-                    <Col md={4}>
-                        <h1 style={{ fontSize: '100px',color:'#ff0173',fontWeight:700 }}>87%</h1>
+
+                    <Col md={4} style={{ display:"none" }}>                        <h1 style={{ fontSize: '100px',color:'#ff0173',fontWeight:700 }}>87%</h1>
                         <div style={{ paddingLeft: '50px',paddingRight:'50px'}}>
                         <div class="progress">
                             <div role={"progressbar"} id={"org"} aria-valuenow={"87"} aria-valuemin={"0"} aria-valuemax={"100"} style={{width: '87%'}}>
