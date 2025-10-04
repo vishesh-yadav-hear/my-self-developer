@@ -4,3 +4,4 @@ This things remove from this repo the real repo is https://github.com/MD-MAFUJUL
 3. Hide Experience Journey,project jurny
 4. Make changes acording to my requirments in jornyfolder
 5. Hide ranking,contect me 
+6. Hide cirtificat section

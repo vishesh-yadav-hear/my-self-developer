@@ -274,7 +274,7 @@ export default function Projects() {
           </Row>
           <div className="blog--viewAll">
             <Link to="/projectspage">
-              <button className="btn btn-primary">
+              <button className="btn btn-primary" style={{ display: "none" }}>
                 View All
                 <HiArrowRight className="viewArr" />
               </button>
