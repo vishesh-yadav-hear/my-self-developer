@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-import { Navbar, Container, Button } from "react-bootstrap";
-import { Link } from "react-router-dom";
-import { CgFileDocument } from "react-icons/cg";
+import { Navbar, Container } from "react-bootstrap";
 import "../../style.css";
 
 export default function MyNav() {
@@ -22,7 +20,7 @@ export default function MyNav() {
       fixed="top"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Container className="d-flex justify-content-between align-items-center">
+      <Container>
         <Navbar.Brand href="/">
           <div className="d-flex flex-row align-items-center">
             <img src="./profile_ico.png" className="img-fluid logo" alt="brand" />
@@ -39,7 +37,6 @@ export default function MyNav() {
             </h5>
           </div>
         </Navbar.Brand>
-        
       </Container>
     </Navbar>
   );
