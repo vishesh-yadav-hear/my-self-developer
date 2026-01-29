@@ -13,6 +13,7 @@ export default function Projects() {
     <div>
       <Container fluid className="certificate-section" id="about">
         <Container>
+    <>
           <Row>
             <Col
               md={12}
@@ -149,6 +150,7 @@ New Computer Gyan is an educational website developed using PHP and MySQL. The p
               </button>
             </Link>
           </div>
+                  </>
         </Container>
       </Container>
     </div>
