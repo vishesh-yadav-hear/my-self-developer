@@ -36,13 +36,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                      New Computer Gyan
                     </h5>
                     <img src={nyc} alt={nyc} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://www.newcomputergyan.in/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -66,12 +66,9 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      The New Year Countdown Project is more than just a
-                      celebration; it's a testament to the human spirit and our
-                      shared aspirations for a brighter future. So, mark your
-                      calendars and get ready to be part of this global
-                      extravaganza as we count down to a new year filled with
-                      endless possibilities.
+                      New Computer Gyan is an educational website developed using PHP and MySQL, designed to share computer-related knowledge and tutorials. The
+                      platform supports dynamic content management, allowing data to be stored and fetched from a database. This project helped me understand
+                      backend development concepts such as server-side scripting, database connectivity, and CRUD operations.
                     </p>
                   </h6>
                   <div
@@ -82,7 +79,7 @@ export default function Projects() {
                       fontWeight: 600,
                     }}
                   >
-                    HTML, CSS, JavaScript
+                    HTML, CSS, JavaScript,PHP,SQL
                   </div>
                 </div>
               </Fade>
