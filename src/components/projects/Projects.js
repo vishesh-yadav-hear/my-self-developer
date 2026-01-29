@@ -75,12 +75,12 @@ New Computer Gyan is an educational website developed using PHP and MySQL. The p
                       fontWeight: 600,
                     }}
                   >
-                    CSS, JavaScript, PHP, SCSS
+                    HTML, CSS, JavaScript, PHP, SQL
                   </div>
                 </div>
               </Fade>
             </Col>
-            <Col md={3} style={{ display: "none" }}>
+            <Col md={3} style={{ display: "none" }>
               <Fade bottom>
                 <div
                   key={1}
