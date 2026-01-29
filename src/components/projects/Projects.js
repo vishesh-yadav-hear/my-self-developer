@@ -34,13 +34,13 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
+                      New Computer Gyan
                     </h5>
                     <img src={ci} alt={ci} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
+                          "https://newcomputergyan.in/"
                         }
                         target="_blank"
                         rel="noreferrer"
@@ -64,11 +64,7 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
+New Computer Gyan is an educational website developed using PHP and MySQL. The platform supports dynamic content management. This project helped me understand backend development concepts such as server-side scripting, database connectivity, and CRUD operations.
                     </p>
                   </h6>
                   <div
