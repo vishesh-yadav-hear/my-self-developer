@@ -36,7 +36,7 @@ export default function Projects() {
                 >
                   <div className="projectContent">
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      New Year CountDown
+                      New Computer Gyan
                     </h5>
                     <img src={nyc} alt={nyc} />
                     <div className="project--showcaseBtn">
