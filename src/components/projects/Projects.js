@@ -42,7 +42,7 @@ export default function Projects() {
                     <div className="project--showcaseBtn">
                       <a
                         href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Web_Programming/tree/main/New-Year-Countdown"
+                          "https://newcomputergyan.in"
                         }
                         target="_blank"
                         rel="noreferrer"
