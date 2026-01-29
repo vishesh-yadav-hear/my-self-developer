@@ -66,8 +66,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-                      New Computer Gyan is an educational website developed using PHP and MySQL, designed to share computer-related knowledge and tutorials. The platform supports dynamic content management, allowing data to be stored and fetched from a database. This project helped me understand backend development concepts such as server-side scripting, database connectivity, and CRUD operations.
-                    </p>
+                   New Computer Gyan is an educational website developed using PHP and MySQL. The platform supports dynamic content management. This project helped me understand backend development concepts such as server-side scripting, database connectivity, and CRUD operations.
+                      </p>
                   </h6>
                   <div
                     className="project--lang"
@@ -144,128 +144,7 @@ export default function Projects() {
                 </div>
               </Fade>
             </Col>
-            <Col md={3}>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
-                  }}
-                >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Online Payroll Management System
-                    </h5>
-                    <img src={ci} alt={ci} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Online-Payroll-Management-System"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      A Payroll management System with feature like generate
-                      payslip & reports. It manages salaries, leaves, branches,
-                      employees, designations, shifts, holidays and employee
-                      attendance. It has chat application so internal employees
-                      can use that feature.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
-                    style={{
-                      background: "#fbd9ad",
-                      color: "#b061df",
-                      fontWeight: 600,
-                    }}
-                  >
-                    CSS, JavaScript, PHP, SCSS
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3}>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
-                  }}
-                >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
-                    </h5>
-                    <img src={pp} alt={pp} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
-                    style={{
-                      background: "#fbd9ad",
-                      color: "#b061df",
-                      fontWeight: 600,
-                    }}
-                  >
-                    HTML, CSS, SCSS, React, JavaScript
-                  </div>
-                </div>
-              </Fade>
-            </Col>
+            
           </Row>
           <div className="blog--viewAll">
             <Link to="/projectspage">
