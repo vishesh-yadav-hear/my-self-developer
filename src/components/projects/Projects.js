@@ -2,8 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Zoom from "react-reveal/Zoom";
 import { Fade } from "react-reveal";
-import ci from "../../images/onboarding.png";
-import pp from "../../images/portfolio.png";
+import pp from "../../images/onboarding.png";
 import { FaCode } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { HiArrowRight } from "react-icons/hi";
@@ -23,6 +22,7 @@ export default function Projects() {
                 <h1 className="aboutme-heading">Projects</h1>
               </Zoom>
             </Col>
+            
             <Col md={3}>
               <Fade bottom>
                 <div
@@ -37,7 +37,7 @@ export default function Projects() {
                     <h5 id={"first"} style={{ color: "#fbd9ad" }}>
                       New Computer Gyan
                     </h5>
-                    <img src={ci} alt={ci} />
+                    <img src={pp} alt={pp} />
                     <div className="project--showcaseBtn">
                       <a
                         href={
@@ -65,7 +65,8 @@ export default function Projects() {
                         fontWeight: 600,
                       }}
                     >
-New Computer Gyan is an educational website developed using PHP and MySQL. The platform supports dynamic content management. This project helped me understand backend development concepts such as server-side scripting, database connectivity, and CRUD operations.
+                      New Computer Gyan is an educational website developed using PHP and MySQL. The platform supports dynamic content management. This project helped me understand backend development concepts such as server-side scripting, database connectivity, and CRUD operations.
+
                     </p>
                   </h6>
                   <div
@@ -77,66 +78,6 @@ New Computer Gyan is an educational website developed using PHP and MySQL. The p
                     }}
                   >
                     HTML, CSS, PHP, SQL
-                  </div>
-                </div>
-              </Fade>
-            </Col>
-            <Col md={3} style={{ display: "none" }>
-              <Fade bottom>
-                <div
-                  key={1}
-                  className="singleProject"
-                  style={{
-                    backgroundColor: "rgb(142 70 186 / 31%)",
-                    border: "1px solid",
-                  }}
-                >
-                  <div className="projectContent">
-                    <h5 id={"first"} style={{ color: "#fbd9ad" }}>
-                      Personal Portfolio
-                    </h5>
-                    <img src={pp} alt={pp} />
-                    <div className="project--showcaseBtn">
-                      <a
-                        href={
-                          "https://github.com/MD-MAFUJUL-HASAN/Personal-Portfolio"
-                        }
-                        target="_blank"
-                        rel="noreferrer"
-                        className={"iconBtn"}
-                        aria-labelledby={`code`}
-                      >
-                        <FaCode
-                          id={`code`}
-                          className={"icon"}
-                          aria-label="Code"
-                        />
-                      </a>
-                    </div>
-                  </div>
-                  <h6>
-                    <p
-                      className="project--desc"
-                      style={{
-                        background: "#fbd9ad",
-                        color: "#b061df",
-                        fontWeight: 600,
-                      }}
-                    >
-                      Welcome to my personal portfolio. Explore my work, skills,
-                      and achievements in a concise and visually appealing
-                      format. Get a glimpse of my expertise and creativity.
-                    </p>
-                  </h6>
-                  <div
-                    className="project--lang"
-                    style={{
-                      background: "#fbd9ad",
-                      color: "#b061df",
-                      fontWeight: 600,
-                    }}
-                  >
-                    HTML, CSS, SCSS, React, JavaScript
                   </div>
                 </div>
               </Fade>
